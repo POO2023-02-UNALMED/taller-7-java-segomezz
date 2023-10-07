@@ -38,9 +38,9 @@ public String getInterpretacion() {
 public void setInterpretacion(String interpretacion) {
 	this.interpretacion=interpretacion;
 }
-
-public int palabrasTotales() {
-	return 2*(super.getPaginas());
+int c=2;
+public int palabrasTotales(int c) {
+	return (c*super.getPaginas());
 }
 public String interpretacion() {
 	return interpretacion;
