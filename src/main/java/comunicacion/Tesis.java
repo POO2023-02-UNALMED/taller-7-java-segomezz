@@ -55,7 +55,7 @@ public String interpretacion() {
 	return interpretacion;
 }
 public String toString() {
-	return(getIdea()+"\n"+getArgumentos()+"\n"+getArgumentos()+"\n"+conclusion+"\n"+referencias+"\n"+super.getOrigen()+"\n"+super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas());
+	return(super.getOrigen()+"\n"+super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas()+"\n"+getIdea()+"\n"+getArgumentos()+"\n"+getArgumentos()+"\n"+conclusion+"\n"+referencias);
 	
 
 }
