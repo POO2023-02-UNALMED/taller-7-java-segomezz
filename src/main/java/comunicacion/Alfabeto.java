@@ -1,12 +1,12 @@
 package comunicacion;
 
 public class Alfabeto extends Pictograma {
-	private  static String[] letras;
+	private  String[] letras;
 	private String interpretacion;
 	public Alfabeto(String[]letras,String interpretacion) {
 		super("");
 		this.interpretacion=interpretacion;
-		this.letras=new String[letras];
+		this.letras=letras;
 		
 	}
 	public int cantidadLetras() {
