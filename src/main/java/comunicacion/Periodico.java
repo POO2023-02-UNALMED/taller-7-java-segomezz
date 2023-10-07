@@ -34,9 +34,8 @@ public void setPrimicia(String primicia) {
 public String interpretacion() {
 	return interpretacion;
 }
-int c=10;
-public int palabrasTotales(int c) {
-	return (c*(super.getPaginas()));
+public int palabrasTotales(int palabrasPagina) {
+	return (10*super.getPaginas()*palabrasPagina);
 }
 public String toString() {
 	return(super.getOrigen()+"\n"+super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas()+"\n"+getFecha()+"\n"+getPrimicia());

@@ -47,9 +47,8 @@ public String[] getArgumentos() {
 		//return numeroArgumentos;
 		
 }
-int c=5;
-public int palabrasTotales(int c) {
-	return (c*(super.getPaginas()));
+public int palabrasTotales(int palabrasPagina) {
+	return (5*super.getPaginas()*palabrasPagina);
 }
 public String interpretacion() {
 	return interpretacion;
