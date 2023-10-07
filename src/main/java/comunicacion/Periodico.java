@@ -39,6 +39,6 @@ public int palabrasTotales(int c) {
 	return (c*(super.getPaginas()));
 }
 public String toString() {
-	return(fecha+"\n"+primicia+"\n"+super.getOrigen()+"\n"+super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas());
+	return(getFecha()+"\n"+getPrimicia()+"\n"+super.getOrigen()+"\n"+super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas());
 }
 }

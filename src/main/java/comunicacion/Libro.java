@@ -46,7 +46,7 @@ public String interpretacion() {
 	return interpretacion;
 }
 public String toString() {
-	return(co_autor+"\n"+editorial+"\n"+edicion+"\n"+super.getOrigen()+"\n"+super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas());
+	return(getCo_autor()+"\n"+getEditorial()+"\n"+getEdicion()+"\n"+super.getOrigen()+"\n"+super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas());
 }
 
 }
