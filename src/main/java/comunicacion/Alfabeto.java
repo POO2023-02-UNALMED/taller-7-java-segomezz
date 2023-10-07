@@ -1,5 +1,34 @@
 package comunicacion;
 
-public class Alfabeto {
+public class Alfabeto extends Pictograma {
+	private  static String[] letras;
+	private String interpretacion;
+	public Alfabeto(String[]letras,String interpretacion) {
+		super("");
+		this.interpretacion=interpretacion;
+		this.letras=new String[letras];
+		
+	}
+	public int cantidadLetras() {
+		int numeroLetras=0;
+		for (int i=0;i<letras.length;i++) {
+			numeroLetras++;
+		}
+		return numeroLetras;
+		
+	}
+	public String getInterpretacion() {
+		return interpretacion;
+	}
+	public void setInterpretacion(String interpretacion) {
+		this.interpretacion=interpretacion;
+	}
+	
 
+public String interpretacion() {
+	return interpretacion;
+}
+public String toString() {
+	return("A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z");
+}
 }
