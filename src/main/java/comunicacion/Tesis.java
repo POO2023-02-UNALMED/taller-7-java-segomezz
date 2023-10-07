@@ -20,7 +20,7 @@ public class Tesis extends Escrito {
 	public void setInterpretacion(String interpretacion) {
 		this.interpretacion=interpretacion;
 	}
-	public String getIdean() {
+	public String getIdea() {
 		return idea;
 	}
 	public void setIdea(String idea) {
@@ -38,7 +38,7 @@ public class Tesis extends Escrito {
 	public void setReferencias(String referencias) {
 		this.referencias=referencias;
 	}
-public int cantidadArgumentos() {
+public int getArgumentos() {
 		int numeroArgumentos=0;
 		for (int i=0;i<argumentos.length;i++) {
 			numeroArgumentos++;
@@ -54,8 +54,8 @@ public String interpretacion() {
 	return interpretacion;
 }
 public String toString() {
-	return(idea+"\n"+argumentos+"\n"+cantidadArgumentos()+"\n"+conclusion+"\n"+referencias+"\n"+super.getOrigen()+"\n"+super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas());
-}
+	return(idea+"\n"+argumentos+"\n"+getArgumentos()+"\n"+conclusion+"\n"+referencias+"\n"+super.getOrigen()+"\n"+super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas());
 	
 
+}
 }

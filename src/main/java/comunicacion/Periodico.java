@@ -25,7 +25,7 @@ public void setFecha(String fecha) {
 	this.fecha=fecha;
 }
 
-public String getprimicia() {
+public String getPrimicia() {
 	return primicia;
 }
 public void setPrimicia(String primicia) {
