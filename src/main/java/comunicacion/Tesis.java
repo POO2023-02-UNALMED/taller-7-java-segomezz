@@ -38,12 +38,13 @@ public class Tesis extends Escrito {
 	public void setReferencias(String referencias) {
 		this.referencias=referencias;
 	}
-public int getArgumentos() {
-		int numeroArgumentos=0;
-		for (int i=0;i<argumentos.length;i++) {
-			numeroArgumentos++;
-		}
-		return numeroArgumentos;
+public String[] getArgumentos() {
+	return argumentos;
+		//int numeroArgumentos=0;
+		//for (int i=0;i<argumentos.length;i++) {
+		//	numeroArgumentos++;
+		//}
+		//return numeroArgumentos;
 		
 }
 int c=5;
